@@ -1,0 +1,37 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": false,
+      "globalReturn": false
+    }
+  },
+  "plugins": [
+    "react"
+  ],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": false,
+    "commonjs": false
+  },
+  "rules": {
+    "no-unused-vars": [1],
+    "semi": [1, "always", { "omitLastInOneLineBlock": true}],
+    "indent": [1, 2, {"SwitchCase": 1, "VariableDeclarator": {"var": 2, "let": 2, "const": 3}}] /* Fixed eslint 2.4.0 */
+  },
+  "globals": {
+      "React": false,
+      "$": false,
+      "Backbone": false
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "0.12.2"
+    }
+  }
+}
