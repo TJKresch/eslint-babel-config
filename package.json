@@ -1,5 +1,5 @@
 {
-  "name": "react-intro",
+  "name": "eslint-babel-config",
   "version": "1.0.0",
   "description": "Files in the `vendor` directory are separately licensed and are included for your convenience.",
   "main": "app.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/misuba/intro-react.git"
+    "url": "git+https://github.com/tjkresch/eslint-babel-config.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/misuba/intro-react/issues"
+    "url": "https://github.com/tjkresch/eslint-babel-config/issues"
   },
-  "homepage": "https://github.com/misuba/intro-react#readme",
+  "homepage": "https://github.com/tjkresch/eslint-babel-config#readme",
   "devDependencies": {
     "babel-cli": "^6.6.5",
     "babel-eslint": "~5.0.0",
